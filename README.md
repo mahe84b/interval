@@ -26,12 +26,16 @@ Below is just an information
 
 Service Call#1: 
 http://localhost:3000/getranges
+
 Method Type: POST
+
 Args: include, exclude
 
 Service Call#2: 
 http://localhost:3000/printfizzbuzz
+
 Method Type: GET
+
 
 Example Inputs and Outputs for Service call#1
 -------------------------
