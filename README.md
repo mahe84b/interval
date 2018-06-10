@@ -1,4 +1,4 @@
-Interval Filtering
+Interval Filtering & FizzBuzz Printing
 -----------------------
 Prepare ranges from given include and exclude arrays. 
 
@@ -21,10 +21,19 @@ On successfull setup you should be able to see that server is running successful
 
 Usage
 -----------------------
-
 Please check the Postman Import file available in docs folder.
+Below is just an information
 
-Example Inputs and Outputs
+Service Call#1: 
+http://localhost:3000/getranges
+Method Type: POST
+Args: include, exclude
+
+Service Call#2: 
+http://localhost:3000/printfizzbuzz
+Method Type: GET
+
+Example Inputs and Outputs for Service call#1
 -------------------------
 Example 1: 
 
