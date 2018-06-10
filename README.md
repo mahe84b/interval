@@ -27,19 +27,36 @@ Please check the Postman Import file available in docs folder.
 Example Inputs and Outputs
 -------------------------
 Example 1: 
+
 Includes: 10-100 
+
 Excludes: 20-30 
+
 Output should be: 10-19, 31-100 
+
 Example 2: 
+
 Includes: 50-5000, 10-100 
+
 Excludes: (none) 
+
 Output: 10-5000 
+
 Example 3: 
+
 Includes: 10-100, 200-300 
+
+
 Excludes: 95-205 
+
 Output: 10-94,206-300 
+
 Example 4: 
+
 Includes: 10-100, 200-300, 400-500 
+
 Excludes: 95-205, 410-420 
+
 Output: 10-94, 206-300, 400-409, 421-500
+
 
