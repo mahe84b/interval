@@ -23,4 +23,4 @@ console.log("Server Running at: http://localhost:3000/\nPlease make a POST call 
 app.get('/', (req, res) => res.send('<center><b>Welcome To Vimond API Server <br> Please read the instructions in Read me to use the APIs</b></center>'))
 app.post('/getranges', Interval_Controller.filterRanges);
 app.get('/printfizzbuzz', Interval_Controller.printFizzBuzz);
-var server = app.listen();
+var server = app.listen(3000);
