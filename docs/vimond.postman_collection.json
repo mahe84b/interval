@@ -1,0 +1,128 @@
+{
+	"id": "a3b476f4-ad8a-5fac-64ac-484fa2014090",
+	"name": "vimond",
+	"description": "",
+	"order": [
+		"83e4031f-85b4-8cdc-c4dc-c9f54ad8c326"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1528606913050,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "83e4031f-85b4-8cdc-c4dc-c9f54ad8c326",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/getranges",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "include",
+					"value": "10-100",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "exclude",
+					"value": "20-30",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "include",
+					"value": "50-5000, 10-100",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "exclude",
+					"value": "",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "include",
+					"value": "10-100, 200-300",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "exclude",
+					"value": "95-205",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "include",
+					"value": "10-100, 200-300, 400-500",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "exclude",
+					"value": "95-205, 410-420",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "include",
+					"value": "10-100,200-300,400-5000",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "exclude",
+					"value": "3-11,95-205,410-4000,4400-4860",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "include",
+					"value": "10-100,200-300,400-5000",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "exclude",
+					"value": "95-205,410-4000,4400-4860,3-11,410-95,1-4399",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1528627270414,
+			"name": "localhost:3000/getranges",
+			"description": "",
+			"collectionId": "a3b476f4-ad8a-5fac-64ac-484fa2014090",
+			"responses": []
+		}
+	]
+}

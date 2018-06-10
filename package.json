@@ -1,0 +1,10 @@
+{
+  "name": "Vimond",
+  "varsion": "1.0",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect": "^3.6.6",
+    "express": "^4.13.4",
+    "request": "^2.87.0"
+  }
+}
